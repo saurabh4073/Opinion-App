@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinion App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body style="background: linear-gradient(to bottom right, #4b6cb7, #182848); color: white;">
+    <div class="container">
+        <h2 class="my-4">Enter Your Opinions</h2>
+        <form action="/random-opinion" method="post">
+            <% for (let i = 1; i <= numOpinions; i++) { %>
+                <div class="form-group">
+                    <label for="opinion<%= i %>">Opinion <%= i %>:</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" name="opinions[]" id="opinion<%= i %>" required>
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" onclick="togglePassword('opinion<%= i %>')">👁️</button>
+                        </div>
+                    </div>
+                </div>
+            <% } %>
+            <button type="submit" class="btn btn-success">Select Random Opinion</button>
+        </form>
+    </div>
+
+    <script>
+        function togglePassword(inputId) {
+            const input = document.getElementById(inputId);
+            input.type = (input.type === 'password') ? 'text' : 'password';
+        }
+    </script>
+</body>
+</html>

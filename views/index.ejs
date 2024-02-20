@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinion App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body style="background: linear-gradient(to bottom right, #4b6cb7, #182848); color: white;">
+    <div class="container">
+        <h2 class="my-4">Welcome to the Opinion App!</h2>
+        <form action="/opinions" method="post">
+            <div class="form-group">
+                <label for="numOpinions">Enter the number of opinions:</label>
+                <input type="number" class="form-control" name="numOpinions" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
