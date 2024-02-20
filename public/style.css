@@ -52,3 +52,7 @@ main {
     width: 600px;
     overflow-y:auto;
 }
+
+body {
+    background-size: cover;
+}
