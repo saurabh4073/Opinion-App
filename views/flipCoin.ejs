@@ -5,6 +5,8 @@
     <title>Flip A Coin</title>
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
     <!--Stylesheet-->
     <style>
         * {
@@ -25,6 +27,7 @@
         }
 
         .container {
+            margin-top: 100px;
             background-color: #ffffff;
             width: 400px;
             padding: 50px;
@@ -109,6 +112,7 @@
     </style>
 </head>
 <body>
+    <main>
     <div class="container">
         <div class="coin" id="coin">
             <div class="heads">
@@ -161,6 +165,7 @@
             coin.style.animation = "none";
         });
     </script>
+    </main>
     <footer class="text-center mt-5">
         <p>Created by Saurabh Kale</p>
     </footer>
