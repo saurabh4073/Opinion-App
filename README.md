@@ -7,17 +7,25 @@ Welcome to Opinion App! This handy tool helps you make decisions when you're tor
 
 ## Installation
 1. Clone the repository:
-``` git clone https://github.com/saurabh4073/Opinion-App.git```
+``` 
+    git clone https://github.com/saurabh4073/Opinion-App.git
+```
 
 2. Install Dependencies:
-``` npm install ```
+``` 
+    npm install
+```
 
 ## Usage
 Run using the following command:
-``` npm start ```
+```
+    npm start
+```
 
 open in browser the following link:
-``` http://localhost:3000 ```
+```
+    http://localhost:3000
+```
 
 ## Contributions
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
