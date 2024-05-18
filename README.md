@@ -1,3 +1,5 @@
+Live Link for the app- https://opinion-app.onrender.com/
+
 The Project is useful when people will have multiple opinions to choose from, such as multiple people suggesting multiple food places or even multiple movies and we need to select one.
 
 The Home Page contains of Two options- Pick Opinion and Flip Coin. If we have to decided between two people then flip coin is useful and when more than 2 People than Pick Opinion is useful.
