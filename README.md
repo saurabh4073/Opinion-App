@@ -16,6 +16,9 @@ Welcome to Opinion App! This handy tool helps you make decisions when you're tor
 Run using the following command:
 ``` npm start ```
 
+open in browser the following link:
+``` http://localhost:3000 ```
+
 ## Contributions
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
