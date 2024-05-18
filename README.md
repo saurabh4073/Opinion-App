@@ -1,8 +1,35 @@
-Live Link for the app- https://opinion-app.onrender.com/
+# Opinion App
 
-The Project is useful when people will have multiple opinions to choose from, such as multiple people suggesting multiple food places or even multiple movies and we need to select one.
+[Live Demo](https://opinion-app.onrender.com/) 
+Please note that the site runs on a free plan on Render, so it might take a while to load.
 
-The Home Page contains of Two options- Pick Opinion and Flip Coin. If we have to decided between two people then flip coin is useful and when more than 2 People than Pick Opinion is useful.
+Welcome to Opinion App! This handy tool helps you make decisions when you're torn between multiple options. Whether you have two choices or several, Opinion App simplifies the process by randomly selecting one option for you. Use the Flip Coin feature for two-option decisions, where the app flips a virtual coin to decide. For more than two options, choose the Pick Opinion feature, enter the number of options, input each one, and let the app randomly pick for you. Ideal for quick decision-making in daily choices, group activities, or any situation where multiple opinions need consideration, Opinion App saves time and reduces stress. Say goodbye to indecision and let the app choose for you!
+
+## Installation
+1. Clone the repository:
+``` git clone https://github.com/saurabh4073/Opinion-App.git```
+
+2. Install Dependencies:
+``` npm install ```
+
+## Usage
+Run using the following command:
+``` npm start ```
+
+## Contributions
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/3. AmazingFeature)
+4. Commit your Changes (git commit -m 'Add some AmazingFeature')
+5. Push to the Branch (git push origin feature/AmazingFeature)
+6. Open a Pull Request
+
+## Working
+The Home Page contains of Two options- Pick Opinion and Flip Coin. If we have to decided between two people then flip coin is useful and when more than 2 People than Pick Opinion is useful. <br>
+Home page-
 ![image](https://github.com/saurabh4073/Opinion-App/assets/49804941/957b9822-f099-4d23-9d8e-67987c6ff7aa)
 
 If the user Selects pick opinion then there will be option to type how many opinions are there.-
