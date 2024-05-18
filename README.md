@@ -30,7 +30,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 5. Push to the Branch (git push origin feature/AmazingFeature)
 6. Open a Pull Request
 
-## Working
+## Working with Screenshots
 The Home Page contains of Two options- Pick Opinion and Flip Coin. If we have to decided between two people then flip coin is useful and when more than 2 People than Pick Opinion is useful. <br>
 Home page-
 ![image](https://github.com/saurabh4073/Opinion-App/assets/49804941/957b9822-f099-4d23-9d8e-67987c6ff7aa)
@@ -46,3 +46,6 @@ After typing all inputs and clicking on select random opinion Randomly one opini
 
 For the second one which is Flip coin there we will have an option to flip a coin-
 ![image](https://github.com/saurabh4073/Opinion-App/assets/49804941/37e4edd1-f9c3-4db4-a62e-b8ba7494064a)
+
+## Acknowledgments
+This project was inspired by my friends who use to take lot of time to decide where to go and what to eat 😂. 
